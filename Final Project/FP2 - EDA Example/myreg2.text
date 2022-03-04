@@ -1,0 +1,27 @@
+\begin{table}[!htbp] \centering
+\begin{tabular}{@{\extracolsep{5pt}}lcc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& \multicolumn{2}{c}{\textit{Dependent variable:}} \
+\cr \cline{2-3}
+\\[-1.8ex] & (1) & (2) \\
+\hline \\[-1.8ex]
+ Intercept & 54.719$^{**}$ & 0.000$^{***}$ \\
+  & (26.845) & (nan) \\
+ lgdpPercap & -1.022$^{**}$ & 0.000$^{***}$ \\
+  & (0.507) & (nan) \\
+ llifeExp & -10.894$^{}$ & 0.000$^{***}$ \\
+  & (6.991) & (nan) \\
+ lpop & 0.175$^{}$ & 0.068$^{***}$ \\
+  & (0.185) & (0.012) \\
+\hline \\[-1.8ex]
+ Observations & 142 & 142 \\
+ $R^2$ &  &  \\
+ Adjusted $R^2$ &  &  \\
+ Residual Std. Error & 1.000(df = 138) & 1.000(df = 141)  \\
+ F Statistic & $^{}$ (df = 3.0; 138.0) & $^{}$ (df = 0; 141.0) \\
+\hline
+\hline \\[-1.8ex]
+\textit{Note:} & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table}
